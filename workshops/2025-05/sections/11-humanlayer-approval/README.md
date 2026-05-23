@@ -9,7 +9,7 @@ and `request_more_information` will be handled over email,
 then the final `done_for_now` answer will be printed back to the CLI
 
 While contrived, this is a great example of the flexibility you get from
-[factor 7 - contact humans with tools](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-7-contact-humans-with-tools.md)
+[factor 7 - contact humans with tools](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-07-contact-humans-with-tools.md)
 
 
 for this section, we'll disable the baml logs. You can optionally enable them if you want to see more details.

@@ -1103,7 +1103,7 @@ Verify tests pass
 In this section, we'll explore how to customize the prompt of the agent
 with reasoning steps.
 
-this is core to [factor 2 - own your prompts](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-2-own-your-prompts.md)
+this is core to [factor 2 - own your prompts](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-02-own-your-prompts.md)
 
 there's a deep dive on reasoning on AI That Works [reasoning models versus reasoning steps](https://github.com/hellovai/ai-that-works/tree/main/2025-04-07-reasoning-models-vs-prompts)
 
@@ -1167,7 +1167,7 @@ add a field to your tool output format that includes the reasoning steps in the 
 In this section, we'll explore how to customize the context window
 of the agent.
 
-this is core to [factor 3 - own your context window](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-3-own-your-context-window.md)
+this is core to [factor 3 - own your context window](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-03-own-your-context-window.md)
 
 
 update the agent to pretty-print the Context window for the model
@@ -1847,7 +1847,7 @@ and `request_more_information` will be handled over email,
 then the final `done_for_now` answer will be printed back to the CLI
 
 While contrived, this is a great example of the flexibility you get from
-[factor 7 - contact humans with tools](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-7-contact-humans-with-tools.md)
+[factor 7 - contact humans with tools](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-07-contact-humans-with-tools.md)
 
 
 for this section, we'll disable the baml logs. You can optionally enable them if you want to see more details.
@@ -2102,7 +2102,7 @@ means every time we wait for human approval, we sit in a loop
 polling until the human response if received.
 
 That's obviously not ideal, especially for production workloads,
-so in this section we'll implement [factor 6 - launch / pause / resume with simple APIs](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-6-launch-pause-resume.md)
+so in this section we'll implement [factor 6 - launch / pause / resume with simple APIs](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-06-launch-pause-resume.md)
 by updating the server to end processing after contacting a human, and use webhooks to receive the results.
 
 
