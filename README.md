@@ -261,3 +261,4 @@ Code is licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0"
 
 ## Contributing
 PRs welcome!
+\n## Improvements\n- Added production config example\n- Clarified environment variables
